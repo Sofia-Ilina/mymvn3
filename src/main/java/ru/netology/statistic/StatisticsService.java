@@ -6,6 +6,7 @@ package ru.netology.statistic;
             for (long income : incomes) {
                 if (currentMax < income) {
                     currentMax = income;
+
                 }
             }
             return currentMax;
